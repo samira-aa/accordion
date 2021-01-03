@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.wrapper .accordian {
+    width: 100%;
+}
+
+.wrapper .accordian .any-acc {}
+
+.wrapper .accordian .any-acc .title {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.wrapper .accordian .any-acc .title i {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.wrapper .accordian .any-acc h3 {}
+
+.wrapper .accordian .any-acc .slide {
+    display: none;
+}
+
+.wrapper .accordian .any-acc .slide p {
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(233, 150, 122, 0.555);
+}
+
+.style-title {
+    background-color: gray;
+    color: white;
+}
